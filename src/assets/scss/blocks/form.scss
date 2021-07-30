@@ -1,0 +1,58 @@
+.form__modal {
+	width: 495px;
+	background: rgba(28, 56, 99, 0.90);
+	border-radius: 15px;
+	padding: 45px;
+}
+
+.form__modal-add {
+	display: flex;
+	flex-direction: column;
+}
+
+.form__title {
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 35px;
+}
+
+.form__modal-input,
+.form__modal-textarea {
+	width: 100%;
+	border-radius: 90px;
+	padding: 20px 25px;
+	margin-bottom: 15px;
+	outline: none;
+
+	&:focus {
+		box-shadow: 0 0 0 2px #000;
+	}
+}
+
+.form__modal-textarea {
+	border-radius: 26px;
+	resize: none;
+	min-height: 134px;
+	margin-bottom: 20px;
+}
+
+.btn-orange {
+	background: linear-gradient(135deg, rgba(251, 176, 64, 1) 40%, rgba(232, 78, 87, 1));
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	transition: all 0.3s ease;
+
+	&:hover {
+		box-shadow: 0px 0px 1px 6px #FBB040, 
+		0px 0px 1px 12px rgba(251, 176, 64, 0.4);
+		transition: all 0.3s ease;
+	}
+}
+
+/* body {
+	background: linear-gradient(to right,
+	   red 20%, orange 20% 40%, yellow 40% 60%, green 60% 80%, blue 80%);
+  } */
