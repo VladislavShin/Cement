@@ -1,3 +1,6 @@
+@import "vars";
+@import "reset";
+
 *,
 *::after,
 *::before {
@@ -30,3 +33,5 @@ a {
 @import "blocks/btn";
 @import "blocks/home";
 @import "blocks/form";
+@import "blocks/footer";
+@import "blocks/products";
