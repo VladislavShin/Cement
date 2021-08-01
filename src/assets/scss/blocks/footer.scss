@@ -1,3 +1,25 @@
 .footer {
-	height: 2000px;
+	background: rgba(43, 89, 255, 0.05);
+
+	ul {
+		margin-top: 0;
+	}
+}
+
+.footer__row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__item {
+	width: 33%;
+}
+
+.footer-flex {
+	display: flex;
+}
+
+.footer__list {
+	display: flex;
+	flex-direction: column;
 }

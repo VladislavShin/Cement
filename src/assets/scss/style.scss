@@ -1,5 +1,6 @@
 @import "vars";
 @import "reset";
+@import "blocks/uikit";
 
 *,
 *::after,
@@ -28,6 +29,7 @@ a {
 }
 
 /* Blocks */
+
 @import "blocks/header";
 @import "blocks/nav";
 @import "blocks/btn";
@@ -35,3 +37,5 @@ a {
 @import "blocks/form";
 @import "blocks/footer";
 @import "blocks/products";
+@import "blocks/offer";
+@import "blocks/news";
