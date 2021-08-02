@@ -1,5 +1,5 @@
 .history {
-    padding-bottom: 175px;
+    padding-bottom: 120px;
 }
 
 .history__row {
@@ -95,19 +95,38 @@
     justify-content: space-between;
     margin-top: 150px;
 
-    .history__left {
-        width: 55%;
+    .history__left,
+    .history__right {
+        width: 48%;
     }
 
-    .history__right {
-        width: 42%;
+    .hisroy__right-img {
+        height: 100%;
 
-        .hisroy__right-img {
+        img {
             height: 100%;
-
-            img {
-                height: 100%;
-            }
         }
+    }
+}
+
+.history__left-title {
+    position: relative;
+    max-width: 465px;
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 60px;
+
+    &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -26px;
+        width: 30%;
+        height: 1px;
+        background: #f23e60;
     }
 }

@@ -15,7 +15,6 @@
     padding-bottom: 40px;
 }
 
-
 .footer-flex {
     display: flex;
     justify-content: space-between;
@@ -98,6 +97,9 @@
 }
 
 .footer__app-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 49px;
     height: 49px;
     border-radius: 50%;
@@ -108,18 +110,68 @@
     &:hover {
         background: #ff7468;
     }
+
+    img {
+        width: 22px;
+        height: 22px;
+
+        &:hover {
+            fill: #fff;
+        }
+    }
 }
 
-.footer__botton {
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 35px 0;
     text-align: center;
 }
 
-.footer__button {
+.footer__buttom-text {
     font-family: "Nunito";
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
     letter-spacing: 0.004em;
     color: rgba(46, 46, 70, 0.8);
+}
+
+.logo__panda {
+    .btn {
+        width: 180px;
+        height: 60px;
+        cursor: pointer;
+        background: linear-gradient(180deg,#000, #8d8d99);
+        outline: none;
+        transition: 1s ease-in-out;
+        border-radius: 5px;
+    }
+
+    svg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        fill: none;
+        stroke: #fff;
+        stroke-dasharray: 150 480;
+        stroke-dashoffset: 150;
+        transition: 1s ease-in-out;
+        border-radius: 5px;
+    }
+
+    .btn:hover {
+        transition: 1s ease-in-out;
+    }
+
+    .btn:hover svg {
+        stroke-dashoffset: -480;
+    }
+
+    .btn a {
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+    }
 }
