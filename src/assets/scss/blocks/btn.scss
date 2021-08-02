@@ -3,6 +3,7 @@
     display: inline-block;
     vertical-align: top;
     padding: 18px 43px;
+    font-family: 'Nunito', sans-serif;
 
     background: rgba(55, 124, 253, 1);
     border: none;
@@ -45,10 +46,9 @@
     padding-right: 69px;
     font-weight: 700;
     text-align: center;
+    font-family: 'Nunito', sans-serif;
 
     &:hover {
-        position: relative;
-        z-index: 10;
         box-shadow:
             0px 0px 1px 6px #FBB040,
             0px 0px 1px 12px rgba(251, 176, 64, 0.4),

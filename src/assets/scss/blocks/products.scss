@@ -132,6 +132,11 @@
 	justify-content: space-between;
 }
 
+.scheme__wrapper {
+	position: relative;
+	z-index: 10;
+}
+
 .scheme__items {
 	position: relative;
 	width: 49%;
@@ -158,10 +163,9 @@
 .scheme__items:first-child::after {
 	content: "";
 	position: absolute;
-	left: -0;
+	left: 0;
 	bottom: 0;
-	transform: translate(-34%, 44%);
-	z-index: -10;
+	transform: translate(-40%, 44%);
 	width: 196px;
 	height: 196px;
 	background: url("../images/vector.png");

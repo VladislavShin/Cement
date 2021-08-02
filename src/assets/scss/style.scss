@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
 body {
     background-color: #fff;
     font-size: 21px;
@@ -39,3 +43,8 @@ a {
 @import "blocks/products";
 @import "blocks/offer";
 @import "blocks/news";
+@import "blocks/contact";
+@import "blocks/partners";
+@import "blocks/map";
+@import "blocks/advantage";
+@import "blocks/projects";
